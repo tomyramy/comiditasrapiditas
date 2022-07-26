@@ -1,0 +1,164 @@
+body{
+    background-color: antiquewhite;
+}
+.cabecera{
+    background-color: rgb(44, 42, 42);
+    text-align: center;
+}
+.links{
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    font-family: 'Arial';
+    background-color:rgb(44, 42, 42);
+    border-end-end-radius: 15px ;
+    border-end-start-radius: 15px;
+}
+a{
+    background-color: rgb(63, 56, 56);
+    text-decoration: none;
+    color: white;
+    border-radius: 3px;
+}
+.titulo{
+    background-color: rgb(44, 42, 42);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.parrafo{
+    background-color: rgb(44, 42, 42);
+    color: white;
+    font-size: 25px;
+    padding: 5px;
+}
+.img{
+    padding: 0px;
+    height: 500px;
+    width: 800px;
+    float: right;
+}
+.foote{
+    color: white;
+    border-radius: 3px;
+    background-color: rgb(44, 42, 42);
+    font-size: 25px;
+}
+.foot{
+    margin-top: 600px;
+}
+.formulario{
+    height: 200px;
+    width: 500px;
+}
+.footerr{
+    margin-top: 0px;
+}
+@media (max-width: 992px)/*maximo*/{body{
+    background-color: rgb(23, 70, 199);
+    }
+    .cabecera{
+        background-color: rgb(44, 42, 42);
+        text-align: center;
+    }
+    .links{
+        text-align: center;
+        padding: 20px;
+        font-size: 30px;
+        font-family: 'Arial';
+        background-color:rgb(44, 42, 42);
+        border-end-end-radius: 15px ;
+        border-end-start-radius: 15px;
+    }
+    a{
+        background-color: rgb(63, 56, 56);
+        text-decoration: none;
+        color: white;
+        border-radius: 3px;
+    }
+    .titulo{
+        background-color: rgb(44, 42, 42);
+        color: white;
+        text-align: center;
+        padding: 10px;
+    }
+    .parrafo{
+        background-color: rgb(44, 42, 42);
+        color: white;
+        font-size: 25px;
+        padding: 5px;
+    }
+    .img{
+        padding: 0px;
+        height: 150px;
+        width: 300px;
+        float: right;
+    }
+    .foote{
+        color: white;
+        border-radius: 3px;
+        background-color: rgb(44, 42, 42);
+    }
+    .foot{
+        margin-top: 80px
+    }
+    .footerr{
+        margin-top: 0px;
+    }
+@media (max-width: 765px)/*maximo*/{
+    body{
+    background-color: rgb(99, 68, 28);
+    }
+    .cabecera{
+        background-color: rgb(44, 42, 42);
+        text-align: center;
+    }
+    .links{
+        text-align: center;
+        padding: 20px;
+        font-size: 30px;
+        font-family: 'Arial';
+        background-color:rgb(44, 42, 42);
+        border-end-end-radius: 15px ;
+        border-end-start-radius: 15px;
+    }
+    a{
+        background-color: rgb(63, 56, 56);
+        text-decoration: none;
+        color: white;
+        border-radius: 3px;
+    }
+    .titulo{
+        background-color: rgb(44, 42, 42);
+        color: white;
+        text-align: center;
+        padding: 10px;
+    }
+    .parrafo{
+        background-color: rgb(44, 42, 42);
+        color: white;
+        font-size: 25px;
+        padding: 5px;
+    }
+    .img{
+        padding: 0px;
+        height: 200px;
+        width: 300px;
+        float: right;
+    }
+    .foote{
+        color: white;
+        border-radius: 3px;
+        background-color: rgb(44, 42, 42);
+        font-size: 25px;
+    }
+    .foot{
+        margin-top: 100px;
+    }
+    .formulario{
+        height: 200px;
+        width: 500px;
+    }
+    .footerr{
+        margin-top: 0px;
+    }

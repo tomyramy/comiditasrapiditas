@@ -1,0 +1,56 @@
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header class="cabecera">
+        <nav class="links">
+            <a class="enlacea" href="index.html"><span class="enlaceb">Inicio</span></a>
+            <a class="enlacea" href="contactos.html"><span class="enlaceb"></span>Contactos</a>
+        </nav> 
+    </header>
+        <main>
+            <div class="titulo">
+                <h1>Comiditas Rapidas</h1>
+            </div>
+            
+            <form class="formulario" action="https://formsubmit.co/tomas.totonda@gmal.com" name="form" onsubmit="return validar();" method="POST" />
+                <fieldset>
+
+                    <legend class="retoque">REALICE SU RESERVA</legend>
+
+                    <div class="div_campos_formulario">
+                        <label for="">Nombre y Apellido</label>
+                        <input type="text" name="nombre" placeholder="Tomas Gimenez Oscar" required>
+                    </div>
+
+                    <div class="div_campos_formulario">
+                        <label for="">Edad</label>
+                        <input type="text" name="edad" placeholder="18" required>
+                    </div>
+
+                    <div class="div_campos_formulario">
+                        <label for="">Email</label>
+                        <input type="text" name="email" placeholder="tomas.totonda@gmal.com" required>
+                    </div>  
+
+                    <button class="botoncito" onclick="validar();">ENVIAR DATOS</button>
+
+                    <input type="hidden" name="_captcha" value="false">
+                </fieldset>
+            </form>
+        </main>
+    <footer class="footerr">
+        <div class="foote">
+            <p class="parrafo1">Todos los derechos son reservados.</p>
+            <p class="parrafo1">Direccion: Av. Avellaneda 968, C1405 CABA</p>
+            <p class="parrafo1">Numero de telefono: 1136109015</p>
+            <p class="parrafo1">Email: Comiditas.rapidas@gmail.com</p> 
+        </div>
+    </footer>
+</body>
+
